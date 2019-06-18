@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon2"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gas"
+            android:icon="@drawable/gas_icon"
+            android:title="@string/menu_gas" />
+        <item
+            android:id="@+id/nav_temperature"
+            android:icon="@drawable/temp_icon"
+            android:title="@string/menu_temperature" />
+        <item
+            android:id="@+id/nav_actions"
+            android:icon="@drawable/controls_icon"
+            android:title="@string/menu_actions" />
+    </group>
+
+</menu>
